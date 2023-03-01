@@ -1,0 +1,51 @@
+@keyframes moveInLeft {
+  /* start state 0% */
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  /* middle state if needed */
+  80% {
+    transform: translateX(0.7rem);
+  }
+  /* finish state 100%  */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  /* start state 0% */
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  /* middle state if needed */
+  80% {
+    transform: translateX(-0.5rem);
+  }
+  /* finish state 100%  */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  /* start state 0% */
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+
+  /* middle state if needed */
+
+  /* finish state 100%  */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
